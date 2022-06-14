@@ -23,10 +23,10 @@ class Rectangle{
 	 //constructors is also a type of function
 	 // different types of functions in a class.
 	 
-	 int setLength(int l){   
+	void setLength(int l){   
 		length = l;
 	}
-	int setBreadth(int b){     
+	void setBreadth(int b){     
 		breadth = b;                // mutators
 	}
 	int getLength(){          

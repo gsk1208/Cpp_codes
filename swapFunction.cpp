@@ -24,7 +24,7 @@ int swap(int &a, int &b)   //passing parameters by reference;
 
 int main(){
 	int a=10, b= 12;
-	swap(a, b);
+	swap(&a, &b);
 	cout << a << " "<<b<<endl;
 	
 	int c =1, d = 3;
@@ -32,7 +32,7 @@ int main(){
 	cout <<c<<" "<<d<<endl;
 	
 	int p=5, q=9;
-	swap(p,q);
+	swap(&p,&q);
 	cout << p << " "<<q;
 	
 	return 0;
