@@ -1,3 +1,0 @@
-hello_everyone
-this_is_next_line
-24

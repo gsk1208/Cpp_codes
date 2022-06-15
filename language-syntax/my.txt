@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+hello_everyone
+this_is_next_line
+24
+=======
+ Hello_everyone_im_groot_from_MCU
+ Iam so gladd to meet you all, here   i love you
+ 3000
+>>>>>>> ab1a09600bf6329c683c31e6586c7ac11bd272c0
