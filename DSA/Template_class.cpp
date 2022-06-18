@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-template <class T>                 // bETTER TO WRITE THE TOTAL PROGRAM WITH SOME DATA-TYPE AND THEN CHANGE IT TO TEMPLATE CLASS
+template <class T>                 // BETTER TO WRITE THE TOTAL PROGRAM WITH SOME DATA-TYPE (like int) AND THEN CHANGE IT TO TEMPLATE CLASS
 class arthmatic{
     private: T a; T b; 
     public: 
