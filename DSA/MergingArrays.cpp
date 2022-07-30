@@ -17,7 +17,8 @@ void Display(Array arr){
 
 void Merge(struct Array *a, struct Array *b){
     int i=0,j=0,k=0;
-    Array *c = new Array;
+    Array *c = (struct Array*)new int[sizeof(struct Array)];
+
 
 
     while(i < a->length && j < b->length){
@@ -28,13 +29,15 @@ void Merge(struct Array *a, struct Array *b){
     }
 
     for(; i < a->length; i++)
-        c ->A[k++] = a->A[i++];
+        c ->A[k++] = a->A[i];
     for(; j < b->length; j++)
         c ->A[k++] = b->A[j];
 
-    c->length = a->length + b->length;
-    c->size = a->size + b->size;
 
+    c -> length = k+3;
+    c -> size = 20; 
+ 
+    
     Display(*c);
     
 }
