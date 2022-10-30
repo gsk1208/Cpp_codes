@@ -10,9 +10,9 @@ int main(){
     
 
     cout << "strstr  : " << strstr(s1, s2) << endl;
-    cout << "strrstr  : " << strrstr(s1, m) << endl;
-    cout << "strchr  : " << strchr(s1, g) << endl;
-    cout << "strrchr  : " << strrchr(s1, g) << endl;
+    cout << "strstr  : " << strrstr(s1, 'g') << endl;
+    cout << "strchr  : " << strrchr(s1, 'm') << endl;
+    cout << "strchr  : " << strrchr(s1, 'm') << endl;
 
     cout << "strcmp  : " << strcmp(s1, s2) << endl; // string comparing  alphabatically
     return 0;

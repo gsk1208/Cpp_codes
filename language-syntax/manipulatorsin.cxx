@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	//cout << 10 << ws << 20;
+	cout << 10 << ws << 20;
 	//cout << set(10) << "hello";
 	cout << hex <<163 << endl;    // oct, dec
 	cout << "Hello\n";

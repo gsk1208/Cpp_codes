@@ -20,8 +20,8 @@ class derived : public base{
 	public:
 	void funderived(){
 		a = 10;    // ×          private inAccesible   €
-		b = 20;   //  ✓          Accessible
-		c = 30;   //  ✓         Accessible
+		b = 20;    //  ✓          Accessible
+		c = 30;    //  ✓          Accessible
 	}
 };
 

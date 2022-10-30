@@ -17,13 +17,12 @@ int main(){
 		}
 		
 		else if (key < A[mid])
-			h = h-1;
+			h = mid-1;
 		
-		else if( key > A[mid])
-			l = l+1;
+		else 
+			l = mid +1;
 			
-		else	
-			cout << "The key is not found." << endl;
 	}
+	cout << "The key is not found";
 	return 0;
 }

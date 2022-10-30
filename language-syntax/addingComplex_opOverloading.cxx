@@ -6,7 +6,6 @@ class complex{
 	int img;
 	
 	public:
-	
 	complex(int r=0, int i=0){
 	real = r;
 	img = i;
@@ -20,6 +19,7 @@ class complex{
 };
 
 // using friend keyword to write outside the class
+
 complex operator+(complex c1, complex c2)
 	{
 		complex temp;

@@ -9,7 +9,7 @@ int main(){
 		if(n%i ==0){
 			sum += i;
 		}
-	}
+	}                      // sum of the factors = 2 x the number
 		cout << "sum is "<< sum<< endl;
 		if (2*n == sum)
 		cout << n << " is a perfect number.\n";
