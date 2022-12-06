@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class parent //final{       // -> unInheritable
+class parent final{       // -> unInheritable
 // if inherited....
 {
 	public:

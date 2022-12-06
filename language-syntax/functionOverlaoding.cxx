@@ -21,7 +21,7 @@ int main(){
 	float p=5.67f, q=7.13f;
 	
 	int x=add(a,b);
-	cout << x<<endl;
+	cout << x <<endl;
 	
 	int y=add(a,c,b);
 	cout << y << endl;
