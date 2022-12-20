@@ -14,7 +14,7 @@ class UpperTri
         A=new int[2*(2+1)/2];
     }
 
-    UpperTri(int n){
+    UpperTri(int n){ 
         this->n = n;
         A = new int[n*(n+1)/2];
     }
