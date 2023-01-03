@@ -21,6 +21,7 @@ class poly{
 
     friend istream &operator>>(istream &is, poly &p);
     friend ostream &operator>>(ostream &os, poly &p);
+    friend poly &operator+(poly &p)
     
 
 };
