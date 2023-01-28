@@ -6,14 +6,14 @@ class queue
     int size;
     int front;
     int rear;
-    int *Q;
+    char *Q;
 
     public:
     queue(int size) 
     {
         this->size = size;
         front = rear =0;
-        Q = new int[this->size];
+        Q = new char[this->size];
     }
 
     ~queue()
@@ -21,7 +21,7 @@ class queue
         delete[] Q;
     }
 
-    void enqueue(int x)
+    void enqueue(char x)
     {
         if((rear+1)%size == front) 
             cout << "Queue is full\n";
@@ -32,9 +32,9 @@ class queue
         }
     }
 
-    int dequeue()
+    char dequeue()
     {
-        int x=-1;
+        char x;
         if(front == rear)
             cout << "Queue is empty\n";
         else
@@ -59,19 +59,15 @@ class queue
 
 int main()
 {
-    queue q(10);
+    queue q1(10), q2(10), q3(10);
 
-    q.enqueue(1);
-    q.enqueue(2);
-    q.enqueue(3);
-    q.enqueue(4);
-    q.enqueue(4);
-    q.enqueue(5);
-    q.enqueue(7);
-    q.enqueue(8);
-    q.enqueue(9);
-    q.enqueue(0);
-    q.enqueue(1);
+    q.enqueue('A');
+    q.enqueue('B');
+    q.enqueue('C');
+    q.enqueue('D');
+    q.enqueue('R');
+    q.enqueue('F');
+    
 
     q.Display();
 
@@ -85,3 +81,5 @@ int main()
 
     return 0;
 }
+
+// get an explanation 
