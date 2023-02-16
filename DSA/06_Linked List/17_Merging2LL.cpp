@@ -99,7 +99,7 @@ void Display(Node* p)
 
 int main()
 {
-    int A[5] = {1, 12, 23, 34, 45};
+    int A[5] = {1, 12, 17, 34, 45};
     int B[5] = {6, 17, 18, 29, 30};
 
     Create1( A, 5);

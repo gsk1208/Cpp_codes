@@ -120,7 +120,6 @@ int isBalanced(char exp[])
         {
             if(stk.isEmpty() || stk.pop() !=  '[') return 0;
         }
-
     }
     if(stk.isEmpty()) return 1;
     else return 0;
